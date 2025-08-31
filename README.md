@@ -2,11 +2,13 @@
 
 ## Project Structure
 
+```
 project/
 ├── main.tf                 # Terraform infrastructure code to create two EC2 instances and security groups
 ├── app.py                   # Flask application to measure network latency
 ├── script.sh                # User-data script to install and configure software for Server1
 └── README.md                # Documentation
+```
 
 ## Prerequisites
 
